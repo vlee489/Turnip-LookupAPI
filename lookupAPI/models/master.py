@@ -11,9 +11,8 @@ def fieldCreator(data) -> str:
 
 
 class MasterDesign:
-    response = {}  # Holds the response for the bot.
-
     def __init__(self, data: dict, expire: datetime):
+        self.response = {}  # Holds the response for the bot.
         self.api_expire_cache = data.get("api-expire-cache")
         self.localCacheExpire = expire
         self.name = data.get("name")

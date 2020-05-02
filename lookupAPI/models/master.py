@@ -1,5 +1,7 @@
 """
 This is the master object for items coming coming from Nookipedia
+
+Licenced under MIT
 """
 import datetime
 
@@ -28,4 +30,3 @@ class MasterDesign:
         self.response['thumbnail'] = {
             "url": data.get('image')
         }
-

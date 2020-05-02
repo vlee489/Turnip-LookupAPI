@@ -1,3 +1,6 @@
+"""
+Licenced under MIT
+"""
 from .master import MasterDesign, fieldCreator
 import datetime
 

@@ -1,10 +1,15 @@
+"""
+This file contains the API lookup hooks to Nookipedia
+
+This is derived from async-nookipedia by @makupi
+https://github.com/makupi/async-nookipedia/blob/master/nookipedia/nookipedia.py
+Hence this is licened under GNU General Public License v3.0 separatly.
+"""
 from lookupAPI.models import Villager, Critter, Fossil
 import datetime
 import aiohttp
 from typing import Optional, List
 
-# This is the time format that will be stored as DD/MM/YYYY/HH/MM
-date_format = "%d/%m/%Y/%H/%M"
 # Timeout for requests in seconds
 timeout = aiohttp.ClientTimeout(total=20)
 base_url = "https://nookipedia.com/api"

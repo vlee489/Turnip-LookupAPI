@@ -1,0 +1,8 @@
+# nookipediaAPI.py
+
+- Cache stored as list of objects
+- Cache checks where replaced with checkValidCache()
+- __requestJson() checks if responses are 200
+- aiohttp has a timeout set
+- cache expire is set internally instead of being tied to Nookipedia's expiry time
+-

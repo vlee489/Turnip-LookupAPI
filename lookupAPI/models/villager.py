@@ -53,5 +53,5 @@ class Villager(MasterDesign):
         ]
         self.response["footer"] = {
             "text": "Info from nookipedia.com",
-            "icon_url": "https://vleedn.fra1.cdn.digitaloceanspaces.com/TurnipBot/Nookipedia.png"
+            "icon_url": "https://cdn.vlee.me.uk/TurnipBot/Nookipedia.png"
         }
